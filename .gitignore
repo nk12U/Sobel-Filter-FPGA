@@ -34,6 +34,7 @@ RTL/simulation/questa/*.vstf
 RTL/simulation/
 RTL/touji_true.ppm
 RTL/awano.ppm
+RTL/sato.ppm
 
 # Other generated files
 *.bak
