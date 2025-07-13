@@ -1,0 +1,59 @@
+# Track only algorithm, RTL, README.md, and presentation slides
+# Ignore everything else
+
+# Ignore old RTL versions
+RTL_v*/
+test/
+memo.txt
+CLAUDE.md
+.claude
+
+# Quartus generated files
+*.qws
+*.qdf
+*.qtl
+*.qip
+*.qsf
+*.qpf
+
+incremental_db/
+db/
+output_files/
+*.rpt
+*.summary
+*.pin
+*.jdi
+*.sld
+*.qsf.bak
+
+# Simulation files  
+RTL/simulation/questa/work/
+RTL/simulation/questa/transcript
+RTL/simulation/questa/*.wlf
+RTL/simulation/questa/*.vstf
+RTL/simulation/
+RTL/touji_true.ppm
+RTL/awano.ppm
+
+# Other generated files
+*.bak
+*.tmp
+*~
+.qsys_edit/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# algorithm files
+algorithm/fig/
+algorithm/test/
+algorithm/venv/
+a.out
+filter.c
+ppm.py
+resize_pgm.py
