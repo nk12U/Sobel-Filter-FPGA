@@ -9,6 +9,8 @@ This project implements a hardware-accelerated Sobel edge detection filter using
 
 ## Architecture Overview
 
+<img src="https://github.com/nk12U/sobel-filter-FPGA/blob/main/fig/Architecture.png" width="800"/>
+
 ### System Design
 The system follows a three-stage pipeline architecture:
 1. **Input Frame Buffer** (`framebuf_rgb`) - Stores input RGB image data
