@@ -1,4 +1,4 @@
-# FPGA-based Sobel Edge Detection Filter
+# FPGA-based Sobel Filter Edge Detection 
 
 This project implements a hardware-accelerated Sobel edge detection filter using FPGA. The system processes RGB color images through a pipeline architecture combining frame buffers and line buffers for real-time edge detection.
 
