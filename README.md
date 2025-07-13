@@ -94,8 +94,8 @@ algorithm/
 
 The design includes comprehensive simulation environment with:
 - **Reference Implementation**: C-based Sobel filter (`filter_ppm.c`)
-- **Test Images**: PPM format RGB images for validation
-- **Simulation Scripts**: test_top.v
+- **Test Images**: PPM format RGB images for validation (`touji.ppm`)
+- **Simulation Scripts**: Verilog HDL test bench (`test_top.v`)
 - **Output Verification**: Comparison between FPGA and software results
 
 ### Known Limitations
