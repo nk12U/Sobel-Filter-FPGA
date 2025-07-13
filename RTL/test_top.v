@@ -108,7 +108,7 @@ module test_top();
       integer c;
       reg [127:0] str;
       begin
-         fd = $fopen("sato.ppm", "r");
+         fd = $fopen("touji.ppm", "r");
          // skip header lines (P3, dimensions, maxval)
          c = $fgets(str, fd);  // P3
          c = $fgets(str, fd);  // 128 128  
@@ -128,7 +128,7 @@ module test_top();
       integer fd;
       integer i;
       begin
-         fd = $fopen("sato_output.ppm", "w");
+         fd = $fopen("output.ppm", "w");
          // write headers
          $fdisplay(fd, "P3");
          $fdisplay(fd, "128 128");
