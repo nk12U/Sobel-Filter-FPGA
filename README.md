@@ -50,7 +50,7 @@ The system follows a three-stage pipeline architecture:
 1. **Input Processing**: 128×128 RGB images enter through `framebuf_rgb`
 2. **Line Buffer Stage**: Each color channel is processed through separate line buffers
 3. **3×3 Window Formation**: Line buffers provide neighborhood access for convolution
-4. **Sobel Computation**: Parallel processing of R, G, B channels
+4. **Sobel Filter Convolution**: Parallel processing of R, G, B channels
 5. **Output Generation**: Edge-detected image stored in output frame buffer
 
 ### Technical Specifications
@@ -84,7 +84,7 @@ RTL/
 ├── sobel_kernel.v     # Sobel convolution kernel
 ├── line_buffer.v      # Line buffer for 3×3 window extraction
 ├── framebuf_rgb.v     # RGB frame buffer
-├── test_top.v         # test bench 
+├── test_top.v         # test bench
 
 algorithm/
 ├── filter_ppm.c       # Reference C implementation
