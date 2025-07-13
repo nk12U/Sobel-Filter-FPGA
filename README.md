@@ -9,7 +9,7 @@ This project implements a hardware-accelerated Sobel edge detection filter using
 
 ## Architecture Overview
 
-<img src="https://github.com/nk12U/sobel-filter-FPGA/blob/main/fig/Architecture.png" width="800"/>
+<img src="https://github.com/nk12U/sobel-filter-FPGA/blob/main/fig/architecture.png" width="700"/>
 
 ### System Design
 The system follows a three-stage pipeline architecture:
